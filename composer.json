@@ -1,0 +1,34 @@
+{
+  "name": "studoo/mistral-ocr-php",
+  "type": "library",
+  "description": "Client library for Mistral OCR API",
+  "keywords": [
+    "mitral",
+    "api",
+    "client",
+    "ocr"
+  ],
+  "homepage": "https://github.com/studoo-app/mistral-ocr-php",
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "Benoit Foujols",
+      "email": "Benoit.Foujols@ac-paris.fr"
+    },
+    {
+      "name": "Studoo Community",
+      "homepage": "https://github.com/orgs/studoo-app/people"
+    }
+  ],
+  "require": {
+    "php": ">=8.2"
+  },
+  "autoload": {
+    "psr-4": { "Studoo\\Mistral\\OCR\\": "src/" },
+    "exclude-from-classmap": [
+      "tests/",
+      "examples/"
+    ]
+  }
+}
